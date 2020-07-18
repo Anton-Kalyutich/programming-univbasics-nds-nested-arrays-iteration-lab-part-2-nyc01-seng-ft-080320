@@ -12,6 +12,7 @@ def find_min_in_nested_arrays(src)
       end
       j += 1
     end
+    
     i += 1
   end
   min_values
