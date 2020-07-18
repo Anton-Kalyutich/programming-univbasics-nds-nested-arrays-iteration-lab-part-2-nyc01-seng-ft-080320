@@ -9,6 +9,7 @@ def find_min_in_nested_arrays(src)
       min_value = src[i][j]
       if src[i][j + 1] < min_value
         min_value = src[i][j + 1]
+      end
       j += 1
     end
     i += 1
